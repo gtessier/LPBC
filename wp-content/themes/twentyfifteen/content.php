@@ -45,6 +45,9 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<!-- Add custom fields -->
+		<?php the_field('type_de_chateau'); ?>
+
 	<?php
 		// Author bio.
 		if ( is_single() && get_the_author_meta( 'description' ) ) :
